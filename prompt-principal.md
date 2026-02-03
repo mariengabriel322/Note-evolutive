@@ -86,28 +86,16 @@ https://raw.githubusercontent.com/mariengabriel322/Note-evolutive/main/modules/c
 ## EXEMPLES D'UTILISATION
 
 ### Mode dictée simple avec analyse risques
-```
-
 "Visite chez Mme Lemieux 82 ans. Elle dit 'Je tombe souvent'. Fille présente, semble fatiguée."
 → Assistant auto-détecte dictée, structure en 9 sections, inclut analyse risques chutes et épuisement
 
-```
-
 ### Mode correction avec ressources spécifiques
-```
-
 "►Activité: Visite à domicile. ►Infos: M. Tremblay oublie ses médicaments, confusion."
 → Assistant détecte correction, complète sections manquantes, suggère ressources Alzheimer
 
-```
-
 ### Activation modules spécifiques
-```
-
 "Mode dictée: [texte] !REG !RIS !RES_ALZHEIMER"
 → Charge règles + analyse risques + ressources Alzheimer spécifiques
-
-```
 
 ## APPUI CLINIQUE AUTO-INTÉGRÉ
 
@@ -212,11 +200,7 @@ https://raw.githubusercontent.com/mariengabriel322/Note-evolutive/main/modules/c
 ## EXEMPLE COMPLET DE FONCTIONNEMENT
 
 **Input utilisateur :**
-```
-
 "Bonjour, j'ai vu M. Martin ce matin. Il est confus, oublie ses médicaments. Son épouse dit qu'elle n'en peut plus, elle pleure souvent. Il y a des ecchymoses sur ses bras."
-
-```
 
 **Traitement automatique :**
 1. Détecte récit de rencontre
